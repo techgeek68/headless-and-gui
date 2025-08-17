@@ -83,7 +83,6 @@ or
 ```
 
 ---
-
 ## Post-Reboot Verification
 
 - **Confirm CLI Boot:**
@@ -97,7 +96,6 @@ Output should be:
 ```
   multi-user.target
 ```
-
 ---
 
 ## Steps to Switch from CLI to GUI
@@ -165,9 +163,9 @@ Output should be:
 ```
   graphical.target
 ```
+---
 
-
-Note:
+> Note:
 - Make sure you have **SSH enabled** before removing GUI, so you can still access your server remotely:
 ```bash
   sudo systemctl enable sshd
@@ -176,13 +174,15 @@ Note:
   sudo systemctl start sshd
 ```
 
+---
+
 - Verify network connectivity after GUI removal:
 ```bash
   ping -c 4 google.com
 ```
 
+---
 - Recommended before removing GUI: backup important configuration files and confirm console/SSH access.
-
 ---
 
 ## Supported Linux Distributions
@@ -195,7 +195,11 @@ This guide applies primarily to **Red Hat Linux** and its derivatives, but can a
 - **AlmaLinux (8/9)**
 - **Oracle Linux (7/8/9)**
 
+---
+
 > Note: Commands may vary slightly depending on package manager (`yum` vs `dnf`) and display manager installed (GDM, LightDM, SDDM). Always verify with your system version.
+
+---
 
 ## References
 - [CentOS Documentation](https://www.centos.org/docs/)
