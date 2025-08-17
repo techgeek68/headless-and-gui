@@ -1,6 +1,6 @@
 # Removing GUI and Switching to CLI & Vice Versa in Red Hat Linux and Its Clones
 
-This guide explains how to **remove the GUI environment** and switch to a pure **CLI (Command Line Interface)** and vice versa in Red Hat systems.
+> This guide explains how to **remove the GUI environment** and switch to a pure **CLI (Command Line Interface)** and vice versa in Red Hat systems.
 
 ---
 
@@ -30,7 +30,11 @@ Kills the GUI session without rebooting (useful for active sessions).
   sudo systemctl disable gdm
 ```
 ```bash
-  sudo dnf remove gdm -y         or         sudo yum remove gdm -y  
+  sudo dnf remove gdm -y
+```
+or
+```bash
+  sudo yum remove gdm -y  
 ```
 
 - **For LightDM (if installed):**
@@ -39,7 +43,11 @@ Kills the GUI session without rebooting (useful for active sessions).
 ```
 
 ```bash
-sudo dnf remove lightdm -y        or            sudo yum remove lightdm -y    
+  sudo dnf remove lightdm -y
+```
+or
+```bash
+  sudo yum remove lightdm -y    
 ```
 
 - **For SDDM (KDE Display Manager):**
@@ -48,12 +56,20 @@ sudo dnf remove lightdm -y        or            sudo yum remove lightdm -y
 ```
 
 ```bash
-  sudo dnf remove sddm -y      or       sudo dnf remove sddm -y
+  sudo dnf remove sddm -y
+```
+or
+```bash
+  sudo dnf remove sddm -y
 ```
 
 ### 5. Clean Up Dependencies
 ```bash
-  sudo dnf autoremove -y     or         sudo yum autoremove -y
+  sudo dnf autoremove -y
+```
+or
+```bash
+  sudo yum autoremove -y
 ```
 
 ### 6. Disable GUI Services (Optional)
