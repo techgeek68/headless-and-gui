@@ -165,7 +165,7 @@ Output should be:
 ```
 ---
 
-> Note:
+Recommendations :
 - Make sure you have **SSH enabled** before removing GUI, so you can still access your server remotely:
 ```bash
   sudo systemctl enable sshd
