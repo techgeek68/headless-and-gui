@@ -1,4 +1,4 @@
-# Removing GUI and Switching to CLI & Vice Versa in Red Hat Linux System
+# Removing GUI and Switching to CLI & Vice Versa in Red Hat Linux and Its Clones
 
 This guide explains how to **remove the GUI environment** and switch to a pure **CLI (Command Line Interface)** and vice versa in Red Hat systems.
 
