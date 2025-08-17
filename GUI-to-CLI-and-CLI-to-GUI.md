@@ -166,14 +166,15 @@ Note:
 ```
 
 - Recommended before removing GUI: backup important configuration files and confirm console/SSH access.
+
 ---
 
 ## Supported Linux Distributions
 
-This guide applies primarily to **CentOS** and its derivatives, but can also be adapted for:
+This guide applies primarily to **Red Hat Linux** and its derivatives, but can also be adapted for:
 
-- **CentOS 7, 8, 9, 10**
 - **RHEL (Red Hat Enterprise Linux) 7/8/9**
+- **CentOS 7, 8, 9, 10**
 - **Rocky Linux (8/9)**
 - **AlmaLinux (8/9)**
 - **Oracle Linux (7/8/9)**
